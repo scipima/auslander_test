@@ -5,6 +5,14 @@ More precisely, we take [German official statistics](https://www.statistischebib
 As a test, we grab data relative to [1987](https://www.statistischebibliothek.de/mir/receive/DEHeft_mods_00132640) and [1991](https://www.statistischebibliothek.de/mir/receive/DEHeft_mods_00132641). 
 
 
+## DEU parties
+We collect data from the EU-NED project regarding votes at NUTS3 level in DEU.
+To colour the parites along several dimensions, we use classifications present in ParlGov and PartyFacts.
+The R script to replicate this is `scritps_r/deu_parties.R`.
+The script contains the link to all data sources. 
+The output of that script is a .csv file, `data_out/deu_parties.csv`.
+
+
 ## CUDA Prep Steps
 To check that we have CUDA correctly installed on Debian, we follow the tips here [How to install PyTorch on Ubuntu 22.04 with Nvidia graphics card](https://www.youtube.com/watch?v=c0Z_ItwzT5o), and here [How to install CUDA on UBUNTU(Linux) | CUDA installation in 2024](https://www.youtube.com/watch?v=8i3BiWa5AZ4).
 
